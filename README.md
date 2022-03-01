@@ -34,3 +34,29 @@ input length > 1
 
 Provide your answer in `answer_1.ts` (change to `.js` if neccessary)
 if you run in TypeScript, install dependencies and run `npx ts-node answer_1.ts`
+
+
+## Object-oriented programming (15%) time: 10 minutes
+open `answer_2.ts`
+
+extend class `Car` to have `Vehicle`'s `get_wheel` method but returns 4
+also `Car` now has additional input `engine` and additonal method `get_engine`
+
+Example:
+``` python
+vehicle = Vehicle('jenny')
+vehicle.get_wheel()
+>>> 2
+vehicle.get_owner()
+>>> 'jenny'
+
+car = Car('lucas', 'diesel')
+car.get_wheel()
+>>> 4
+car.get_owner()
+>>> 'lucas'
+car.get_engine()
+>>> 'diesel'
+```
+
+you may not override `get_wheel` in `Car` class
