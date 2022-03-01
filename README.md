@@ -33,3 +33,4 @@ Constraint:
 input length > 1
 
 Provide your answer in `answer_1.ts` (change to `.js` if neccessary)
+if you run in TypeScript, install dependencies and run `npx ts-node answer_1.ts`
