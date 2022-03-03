@@ -6,7 +6,21 @@ Test overview:
 - 15% SQL understanding
 - 40% Web scraping basic project
 
+---
+### Prerequisites
+- Node/Typescript: `npm` and do `npm install`
+    - If you run in Node, please rename every `.ts` files to `.js`
+- Python: `pip install -r requirements.txt`
 
+### How to run 
+#### TypeScript: 
+`npm test -- answer_1.test.ts`
+#### Node: 
+`node answer_1.js`
+#### Python: 
+`python answer_1.py`
+
+---
 ## Data structure & Algorithm understanding (30%) time: 20 minutes
 
 
@@ -32,12 +46,11 @@ output: ['bb', 'bc', 'bd', 'cb', 'cd', 'db', 'dc']
 Constraint:
 input length > 1
 
-Provide your answer in `answer_1.ts` (change to `.js` if neccessary)
-if you run in TypeScript, install dependencies and run `npx ts-node answer_1.ts`
+Provide your answer in `answer_1.ts`/`.py`
 
 
 ## Object-oriented programming (15%) time: 10 minutes
-open `answer_2.ts`
+open `answer_2.ts` / `.py`
 
 extend class `Car` to have `Vehicle`'s `get_wheel` method but returns 4
 also `Car` now has additional input `engine` and additonal method `get_engine`

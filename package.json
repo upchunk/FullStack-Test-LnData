@@ -12,6 +12,6 @@
         "sqlite3": "^5.0.2"
     },
     "scripts": {
-        "test": "npx ts-node"
+        "test": "npx jest"
     }
 }
