@@ -60,3 +60,38 @@ car.get_engine()
 ```
 
 you may not override `get_wheel` in `Car` class
+
+
+## MySQL Understanding (15%): 10 minutes
+
+
+open `answer_3.ts` / `.py`
+
+
+The data is looked like this:
+table `customer`
+
+| CustID | Name  | Age | Hobby       |
+|----|-------|-----|-------------|
+| 1  | John  | 21  | Manga       |
+| 2  | Ricky | 27  | Photography |
+| 3  | Jane  | 19  | Ski         |
+
+
+and table `favColor`
+
+| ID | CustID | Color  |
+|----|--------|--------|
+| 1  | 1      | Blue   |
+| 2  | 1      | Black  |
+| 3  | 1      | Yellow |
+| 4  | 2      | Yellow |
+| 5  | 2      | White  |
+| 6  | 3      | Blue   |
+| 7  | 3      | Grey   |
+| 8  | 3      | Silver |
+
+Query the data with the constraint:
+```
+number of favorite color is greater than 2
+```
