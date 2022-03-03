@@ -4,7 +4,7 @@ Test overview:
 - 30% Data structure & Algorithm understanding 
 - 15% Object-oriented programming
 - 15% SQL understanding
-- 40% Web scraping basic project
+- 40% Fullstack basic project
 
 ---
 ### Prerequisites
@@ -108,3 +108,54 @@ Query the data with the constraint:
 ```
 number of favorite color is greater than 2
 ```
+
+
+## Fullstack basic project (40%) 30 minutes
+create a 2-page social media website
+
+1st page:
+- contains header
+- current time
+- weather (fetch from https://www.weatherapi.com/, credential ask interviewer)
+
+2nd page:
+- contains header
+- fetch data from backend (data is in JSON in `question_4.data.json`, or export to SQL/Mongo if you want)
+- show vertical-scroll post data
+- each post contains picture, caption, time, and stats
+- hover the user to see subscriber count and userid
+- click the post to go to the actual post in Instagram
+
+Design:
+https://www.figma.com/file/AqVoACqtPBSo95VqYYKYXu/Fullstack?node-id=0%3A1
+
+Prototype:
+https://www.figma.com/proto/AqVoACqtPBSo95VqYYKYXu/Fullstack?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=5%3A209
+
+### Stacks
+**Frontend**:
+
+You may use either javascript framework like React or Python Django stack. 
+
+Should not directly hardcode the data.
+
+you can use your own icons, or see `assets` folder
+
+**Backend**:
+
+API to serve frontend, in nodejs or Python Django / Flask. Retrieve the data from database
+
+**Database**:
+
+simple JSON from `question_4.data.json`
+
+or MYSQL / Mongo (Plus point)
+
+### Point calculation:
+- 20% Working page transition
+- 20% WOrking weather information fetching
+- 10% Item positioning
+- 30% Showing complete post information
+- 10% User (from hover) information
+- 5% CSS detailed styling and transition 
+- 5% Responsiveness (PC and mobile layout) is not important
