@@ -20,13 +20,3 @@ Array.prototype.equals = function (arr2) {
         this.sortString().every((value: string, index: number) => value === arr2.sortString()[index])
     );
 };
-
-const checkAnswer1 = (output: Array<string>, answer: Array<string>) => {
-    const compare = output.equals(answer)
-    if (compare !== true) {
-        throw new Error(`Answer is incorrect: ${output} with ${answer}`);
-    }
-}
-module.exports = {
-    checkAnswer1
-}
